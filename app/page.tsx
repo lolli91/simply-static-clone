@@ -69,7 +69,7 @@ export default function SimplyStatic() {
       <header className="bg-[#0d0223] sticky top-0 z-50 shadow-md">
         <div className="max-w-7xl mx-auto px-6 py-5">
           <nav className="flex justify-between items-center">
-            <img src="static/logo-dark.svg" alt="Simply Static" className="h-10" />
+            <img src="./logo-dark.svg" alt="Simply Static" className="h-10" />
 
             <ul className="hidden md:flex gap-10 text-white font-medium">
               <li><a href="#" className="hover:opacity-80 flex items-center gap-1">Product <span>▼</span></a></li>
@@ -109,7 +109,7 @@ export default function SimplyStatic() {
       <section
         className="bg-cover bg-center text-white pt-32 pb-20 relative"
         style={{
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('static/hero.jpg')"
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('./hero.jpg')"
         }}
       >
         <div className="max-w-5xl mx-auto px-6 text-center">
@@ -141,7 +141,7 @@ export default function SimplyStatic() {
               </p>
               <div className="flex items-center gap-4">
                 <img 
-                  src="static/andre-esteves-perrones.webp"
+                  src="./andre-esteves-perrones.webp"
                   alt="Andre Esteves Perrone" 
                   className="w-16 h-16 rounded-full object-cover border-2 border-white/30"
                 />
@@ -159,7 +159,7 @@ export default function SimplyStatic() {
               </p>
               <div className="flex items-center gap-4">
                 <img 
-                  src="static/him-hankis-cb-300x300.webp" 
+                  src="./him-hankis-cb-300x300.webp" 
                   alt="Jim Hankins" 
                   className="w-16 h-16 rounded-full object-cover border-2 border-white/30"
                 />
@@ -193,7 +193,7 @@ export default function SimplyStatic() {
           loop
           playsInline
         >
-          <source src="static/what-is-static-wordpress.mp4" type="video/mp4" />
+          <source src="./what-is-static-wordpress.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -210,14 +210,14 @@ export default function SimplyStatic() {
           </p>
          
           <div className="flex flex-wrap justify-center items-center gap-12 mt-16 opacity-75">
-            <img src="static/microsoft.webp" alt="Microsoft" className="h-8" />
-            <img src="static/unicef.webp" alt="UNICEF" className="h-8" />
-            <img src="static/rapid.webp" alt="RapidAPI" className="h-8" />
-            <img src="static/hp.webp" alt="HP" className="h-8" />
-            <img src="static/dash.webp" alt="Dash" className="h-8" />
-            <img src="static/postman.webp" alt="Postman" className="h-8" />
-            <img src="static/mailtrap.webp" alt="Mailtrap" className="h-8" />
-            <img src="static/near.webp" alt="NEAR" className="h-8" />
+            <img src="./microsoft.webp" alt="Microsoft" className="h-8" />
+            <img src="./unicef.webp" alt="UNICEF" className="h-8" />
+            <img src="./rapid.webp" alt="RapidAPI" className="h-8" />
+            <img src="./hp.webp" alt="HP" className="h-8" />
+            <img src="./dash.webp" alt="Dash" className="h-8" />
+            <img src="./postman.webp" alt="Postman" className="h-8" />
+            <img src="./mailtrap.webp" alt="Mailtrap" className="h-8" />
+            <img src="./near.webp" alt="NEAR" className="h-8" />
           </div>
         </div>
       </section>
